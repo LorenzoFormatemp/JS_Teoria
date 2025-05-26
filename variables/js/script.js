@@ -10,3 +10,14 @@ var variabile3;
 //const esempio; //TypeError
 const esempio = 'Esempio'; 
 esempio = 'Esempio1'; //TypeError
+
+// 3. LET
+    // riassegnabile
+    // può essere dichiarata e successivamente le si può assegnare un valore
+let esempio1; // OK
+esempio1 = 'Testo';
+esempio1 = 12;
+esempio1 = null;
+
+console.log(variable);
+let variable;
