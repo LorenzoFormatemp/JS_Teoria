@@ -47,4 +47,28 @@ else is_user = false;
 console.log(is_user);
 
 
+/* 
+    SE HO DIVERSE CONDIZIONI:
 
+        if(condizione1){
+            //codice
+        } else if(condizione2){
+            // codice 
+        } else  if(condizione3){
+            // codice 
+        } else {
+            // codice 
+        }
+*/
+
+/* 
+
+    OPERATORI RELAZIONALI
+
+*/
+const val1 = 3; // numero
+const val2 = '3'; // stringa
+
+// UGUAGLIANZA E IDENTITà
+let result = (val1 == val2) ? true : false; // true
+result = (val1 === val2) ? true : false; // false
