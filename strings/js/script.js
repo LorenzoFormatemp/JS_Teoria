@@ -12,3 +12,16 @@ const string4 = 10; // numero
 const string5 = '10'; // stringa
 
 const string6 = string4 + string5; // esempio di conversione implicita
+
+// template literal
+    /* 
+        1. posso scrivere su più righe
+        2. posso metterci direttamente codice JS
+    */
+const newDiv = `
+    <div class="container">
+        <p>${string6}</p>
+    </div>
+`;
+
+const newString = "string6"; // è interpretato come testo e non come variabile JS
