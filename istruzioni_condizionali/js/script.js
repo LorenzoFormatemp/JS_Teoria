@@ -63,7 +63,16 @@ console.log(is_user);
 
 /* 
 
-    OPERATORI RELAZIONALI
+    OPERATORI RELAZIONALI:
+
+        != => diverso
+        !==  => diverso anche tipo di dato
+
+        >   => maggiore
+        >=  => maggiore o uguale
+
+        < => minore
+        <=  => minore o uguale
 
 */
 const val1 = 3; // numero
@@ -72,3 +81,21 @@ const val2 = '3'; // stringa
 // UGUAGLIANZA E IDENTITà
 let result = (val1 == val2) ? true : false; // true
 result = (val1 === val2) ? true : false; // false
+
+
+/* 
+    OPERATORI LOGICI:
+
+        && (and logico) => dà vero se entrambe le condizioni sono vere, altrimenti dà falso
+
+        ||  (or logico)  => dà vero se almeno una delle due o più condizioni sono vere
+
+        !  (not)  => è unario, nel senso che richiede un solo operando
+*/
+
+is_user = false; 
+
+if(!is_user){
+    //esegui il blocco di codice
+    console.log('Non sei iscritto al sito');
+}
