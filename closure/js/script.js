@@ -12,3 +12,12 @@ conta();
 conta();
 conta();
 conta();
+
+
+/*  */
+
+function esempio(){
+    return 'ciao';
+}
+
+
