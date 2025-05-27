@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+        // variabili
+            // let, const, var 
+            // una sola informazione
+            // const info = 10;
+
+        // array
+            // più info
+            // in qualche modo legate tra di loro
+        
+        //const users = ['utente1', 'utente2', 'utente3', null, undefined , '', '&%'];
+        /*  
+            const user1 = '';
+            const user2 = ''; 
+        */
+        /* 
+            arr.includes(elemento_da_cercare) => funzione propria degli array
+        */
+        // array di ogg. 
+        /* const users = [
+            {
+                name: 'Utente1',
+                age: 18,
+                email: 'utente@mail.it',
+                address: ''
+            },
+        ]; */
+
+        const users = ['Mario', 'Sara', 'Marco'];
+        // accedo ai singoli elementi
+        users[0]; // Mario
+        users[1]; // Sara
+        users[2]; // Marco
+
+        // aggiungo un elemento in fondo
+        users.push('Luca');
+
+        // aggiungo un elemento all'inizio
+        users.unshift('Giovanni');
+
+        // tolgo il primo elemento
+        users.shift();
+        
+        // tolgo l'ultimo elemento
+        users.pop();
+
+        // tolgo un elemento specifico
+        users.splice(1, 1);
+
+    </script>
+
+
+</body>
+</html>
