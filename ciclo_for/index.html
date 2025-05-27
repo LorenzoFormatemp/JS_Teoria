@@ -8,29 +8,28 @@
 <body>
     
 
-
-
     <script>
-
         const users = ['utente1', 'utente2', 'utente3'];
-
         // ripetere lo stesso codice 3 volte
         // console.log(users[0]);
         // console.log(users[1]);
         // console.log(users[2]);
-
         /* 
-        
             - contatore
             - condizione
             - incremento /decremento
         */
-
         for (let i = 0; i < users.length; i++) {
             const element = users[i]; // uso il contatore come indice per prendere l'elemento dell'array
             console.log(element);
         }
 
+        /* esempio col while */
+        let i = 0;
+        while(users[i] !== undefined){
+            console.log(users[i]);
+            i++;
+        }    
     </script>
 </body>
 </html>
